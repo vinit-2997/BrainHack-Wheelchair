@@ -1,0 +1,122 @@
+from bluetooth import *
+
+server_sock=BluetoothSocket( RFCOMM )
+server_sock.bind(("",PORT_ANY))
+server_sock.listen(1)
+
+from time import sleep
+import RPi.GPIO as GPIO
+
+port = server_sock.getsockname()[1]
+
+uuid = "94f39d29-7d6d-437d-973b-fba39e49d4ee"
+
+
+advertise_service( server_sock, "SampleServer",
+                   service_id = uuid,
+                   service_classes = [ uuid, SERIAL_PORT_CLASS ],
+                   profiles = [ SERIAL_PORT_PROFILE ], 
+#                   protocols = [ OBEX_UUID ] 
+                    )
+                   
+print "Waiting for connection on RFCOMM channel %d" % port
+
+client_sock, client_info = server_sock.accept()
+print "Accepted connection from ", client_info
+
+
+Motor1A = 27
+Motor1B = 17
+Motor1E = 5
+
+Motor2A = 23
+Motor2B = 24
+Motor2E = 6
+ 
+
+GPIO.setmode(GPIO.BCM)              # GPIO Numbering
+GPIO.setup(Motor1A,GPIO.OUT)  # All pins as Outputs
+GPIO.setup(Motor1B,GPIO.OUT)
+GPIO.setup(Motor1E,GPIO.OUT)
+
+GPIO.setup(Motor2A,GPIO.OUT)  # All pins as Outputs
+GPIO.setup(Motor2B,GPIO.OUT)
+GPIO.setup(Motor2E,GPIO.OUT)
+
+
+try:
+    while True:
+        client_info = client_sock.recv(1024)
+        #print "received [%s]" % client_info
+        #NOT_GOOD_SIGNAL is coded as DOUBLE_BLINK in android app itself
+        if client_info=="DOUBLE_BLINK":
+        #if "Double Blink Detected" in client_info: 
+            #print "DOUBLE BLINK"
+            print "turning right  -------->>>>"
+            GPIO.output(Motor1A,GPIO.LOW)
+            GPIO.output(Motor1B,GPIO.HIGH)
+            GPIO.output(Motor1E,GPIO.HIGH)
+
+            GPIO.output(Motor2A,GPIO.HIGH)
+            GPIO.output(Motor2B,GPIO.LOW)
+            GPIO.output(Motor2E,GPIO.HIGH)
+        
+        elif client_info=="BLINK_DETECTEDz":
+            #print "yaaaaaaaaaaaaar single blink"
+            print "turning left"
+            GPIO.output(Motor1A,GPIO.HIGH)
+            GPIO.output(Motor1B,GPIO.LOW)
+            GPIO.output(Motor1E,GPIO.HIGH)
+
+            GPIO.output(Motor2A,GPIO.LOW)
+            GPIO.output(Motor2B,GPIO.HIGH)
+            GPIO.output(Motor2E,GPIO.HIGH)
+            
+            sleep(1)
+            
+            GPIO.output(Motor1E,GPIO.LOW)
+            GPIO.output(Motor2E,GPIO.LOW)
+            
+        else:
+            pass
+            #print "something else"
+
+            
+            
+        if(client_info.isdigit()):
+            
+            if(int(client_info)>50 and int(client_info)<100):
+                print "moving front ^^^^"
+                GPIO.output(Motor1A,GPIO.HIGH)
+                GPIO.output(Motor1B,GPIO.LOW)
+                GPIO.output(Motor1E,GPIO.HIGH)
+
+                GPIO.output(Motor2A,GPIO.HIGH)
+                GPIO.output(Motor2B,GPIO.LOW)
+                GPIO.output(Motor2E,GPIO.HIGH)
+                
+            elif(int(client_info)<50):
+                print "concentrate more to move !!"
+                GPIO.output(Motor1E,GPIO.LOW)
+                GPIO.output(Motor2E,GPIO.LOW)  
+                
+        else:
+            pass
+            #print"invalid"
+                
+except KeyboardInterrupt:
+    print "error"
+
+finally:
+    print"cleaning"
+    GPIO.output(Motor1E,GPIO.LOW)
+    GPIO.output(Motor2E,GPIO.LOW)
+    GPIO.cleanup()
+    print "done cleaning"
+    print "disconnected"
+    client_sock.close()
+    server_sock.close()
+    print "all done"
+
+
+
