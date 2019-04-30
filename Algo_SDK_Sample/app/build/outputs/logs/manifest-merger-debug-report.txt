@@ -1,0 +1,200 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:2:1-27:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\a064319cfdb3ba60a60b86094a641c3a\AndroidManifest.xml:17:1-31:12
+MERGED from [org.mongodb:stitch-android-sdk:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-sdk-4.1.0.aar\f57d148b0ad5925bc60f5ebfeb5ea234\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\03c6292fd9baee489c1f9dad7322b997\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\bee165b265bcb4d1324fb3111f2abee1\AndroidManifest.xml:17:1-28:12
+MERGED from [org.mongodb:stitch-android-services-mongodb-remote:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-services-mongodb-remote-4.1.0.aar\418c5ee126a18ddb83addea523b776b6\AndroidManifest.xml:2:1-11:12
+MERGED from [org.mongodb:stitch-android-services-mongodb-local:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-services-mongodb-local-4.1.0.aar\213f2087ebf400877d6667c8dd4b9c80\AndroidManifest.xml:2:1-20:12
+MERGED from [org.mongodb:stitch-android-core:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-core-4.1.0.aar\9a209d9b35e8ba9af6df01dc5b88a5fe\AndroidManifest.xml:2:1-27:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\52ce94d25792ea968c0a9c67b6cca2be\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\cb5b02a5581a9bab2f374dc1c34ec962\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\039f125bb64353501362094f3c8c2117\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\d3706b64b3dfd4aeaf1773ff4da1329f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\7b8d3758544f2985565ef62c417776c6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\b000294390c1283d91ebcf0128634163\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\529c055618b33534fd992a7006716b41\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\ae4816e046bf28455f47a46664aea946\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\59a6291725fb3ecb1cb2e4a1226469ae\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\cf714b8f5db284f8e111f6b6d61949aa\AndroidManifest.xml:17:1-22:12
+MERGED from [org.mongodb:mongodb-driver-embedded-android:3.9.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\mongodb-driver-embedded-android-3.9.0.aar\cfcd78153632fa6b098e2b3e2447c32e\AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\cf79cd2449a54c24a65cdcbd53583835\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ddc104849bfd7772c917a0bfcd159168\AndroidManifest.xml:17:1-22:12
+MERGED from [org.mongodb:embedded-android:4.0.9] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\embedded-android-4.0.9.aar\a821c26118fc5e4c395b0c6ad743f745\AndroidManifest.xml:2:1-9:12
+MERGED from [net.java.dev.jna:jna:4.5.2] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jna-4.5.2.aar\0b52b7c6d48674e3cc9dcd3c6457f00b\AndroidManifest.xml:2:1-8:12
+INJECTED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:2:1-27:12
+		INJECTED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:2:1-27:12
+		INJECTED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:5:5-68
+	android:name
+		ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:5:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:6:5-74
+	android:name
+		ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:6:22-71
+uses-permission#android.permission.INTERNET
+ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:7:5-66
+MERGED from [org.mongodb:stitch-android-core:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-core-4.1.0.aar\9a209d9b35e8ba9af6df01dc5b88a5fe\AndroidManifest.xml:12:5-67
+MERGED from [org.mongodb:stitch-android-core:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-core-4.1.0.aar\9a209d9b35e8ba9af6df01dc5b88a5fe\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:7:22-64
+application
+ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:9:5-25:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\a064319cfdb3ba60a60b86094a641c3a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\a064319cfdb3ba60a60b86094a641c3a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\03c6292fd9baee489c1f9dad7322b997\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\03c6292fd9baee489c1f9dad7322b997\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\bee165b265bcb4d1324fb3111f2abee1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\bee165b265bcb4d1324fb3111f2abee1\AndroidManifest.xml:22:5-26:19
+MERGED from [org.mongodb:stitch-android-services-mongodb-local:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-services-mongodb-local-4.1.0.aar\213f2087ebf400877d6667c8dd4b9c80\AndroidManifest.xml:11:5-18:19
+MERGED from [org.mongodb:stitch-android-services-mongodb-local:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-services-mongodb-local-4.1.0.aar\213f2087ebf400877d6667c8dd4b9c80\AndroidManifest.xml:11:5-18:19
+MERGED from [org.mongodb:stitch-android-core:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-core-4.1.0.aar\9a209d9b35e8ba9af6df01dc5b88a5fe\AndroidManifest.xml:14:5-25:19
+MERGED from [org.mongodb:stitch-android-core:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-core-4.1.0.aar\9a209d9b35e8ba9af6df01dc5b88a5fe\AndroidManifest.xml:14:5-25:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\52ce94d25792ea968c0a9c67b6cca2be\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\52ce94d25792ea968c0a9c67b6cca2be\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\cb5b02a5581a9bab2f374dc1c34ec962\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\cb5b02a5581a9bab2f374dc1c34ec962\AndroidManifest.xml:22:5-26:19
+	android:label
+		ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:12:9-41
+	android:icon
+		ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:11:9-40
+	android:allowBackup
+		ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.neurosky.algo_sdk_sample.MainActivity
+ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:14:9-24:20
+	android:screenOrientation
+		ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:17:13-49
+	android:label
+		ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:16:13-45
+	android:configChanges
+		ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:18:13-63
+	android:name
+		ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:15:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml:22:27-74
+uses-sdk
+INJECTED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml
+INJECTED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\a064319cfdb3ba60a60b86094a641c3a\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\a064319cfdb3ba60a60b86094a641c3a\AndroidManifest.xml:21:5-23:78
+MERGED from [org.mongodb:stitch-android-sdk:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-sdk-4.1.0.aar\f57d148b0ad5925bc60f5ebfeb5ea234\AndroidManifest.xml:7:5-9:41
+MERGED from [org.mongodb:stitch-android-sdk:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-sdk-4.1.0.aar\f57d148b0ad5925bc60f5ebfeb5ea234\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\03c6292fd9baee489c1f9dad7322b997\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\03c6292fd9baee489c1f9dad7322b997\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\bee165b265bcb4d1324fb3111f2abee1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\bee165b265bcb4d1324fb3111f2abee1\AndroidManifest.xml:20:5-44
+MERGED from [org.mongodb:stitch-android-services-mongodb-remote:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-services-mongodb-remote-4.1.0.aar\418c5ee126a18ddb83addea523b776b6\AndroidManifest.xml:7:5-9:41
+MERGED from [org.mongodb:stitch-android-services-mongodb-remote:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-services-mongodb-remote-4.1.0.aar\418c5ee126a18ddb83addea523b776b6\AndroidManifest.xml:7:5-9:41
+MERGED from [org.mongodb:stitch-android-services-mongodb-local:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-services-mongodb-local-4.1.0.aar\213f2087ebf400877d6667c8dd4b9c80\AndroidManifest.xml:7:5-9:41
+MERGED from [org.mongodb:stitch-android-services-mongodb-local:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-services-mongodb-local-4.1.0.aar\213f2087ebf400877d6667c8dd4b9c80\AndroidManifest.xml:7:5-9:41
+MERGED from [org.mongodb:stitch-android-core:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-core-4.1.0.aar\9a209d9b35e8ba9af6df01dc5b88a5fe\AndroidManifest.xml:7:5-9:41
+MERGED from [org.mongodb:stitch-android-core:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-core-4.1.0.aar\9a209d9b35e8ba9af6df01dc5b88a5fe\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\52ce94d25792ea968c0a9c67b6cca2be\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\52ce94d25792ea968c0a9c67b6cca2be\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\cb5b02a5581a9bab2f374dc1c34ec962\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\cb5b02a5581a9bab2f374dc1c34ec962\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\039f125bb64353501362094f3c8c2117\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\039f125bb64353501362094f3c8c2117\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\d3706b64b3dfd4aeaf1773ff4da1329f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\d3706b64b3dfd4aeaf1773ff4da1329f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\7b8d3758544f2985565ef62c417776c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\7b8d3758544f2985565ef62c417776c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\b000294390c1283d91ebcf0128634163\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\b000294390c1283d91ebcf0128634163\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\529c055618b33534fd992a7006716b41\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\529c055618b33534fd992a7006716b41\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\ae4816e046bf28455f47a46664aea946\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\ae4816e046bf28455f47a46664aea946\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\59a6291725fb3ecb1cb2e4a1226469ae\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\59a6291725fb3ecb1cb2e4a1226469ae\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\cf714b8f5db284f8e111f6b6d61949aa\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\cf714b8f5db284f8e111f6b6d61949aa\AndroidManifest.xml:20:5-44
+MERGED from [org.mongodb:mongodb-driver-embedded-android:3.9.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\mongodb-driver-embedded-android-3.9.0.aar\cfcd78153632fa6b098e2b3e2447c32e\AndroidManifest.xml:5:5-7:41
+MERGED from [org.mongodb:mongodb-driver-embedded-android:3.9.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\mongodb-driver-embedded-android-3.9.0.aar\cfcd78153632fa6b098e2b3e2447c32e\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\cf79cd2449a54c24a65cdcbd53583835\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\cf79cd2449a54c24a65cdcbd53583835\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ddc104849bfd7772c917a0bfcd159168\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ddc104849bfd7772c917a0bfcd159168\AndroidManifest.xml:20:5-44
+MERGED from [org.mongodb:embedded-android:4.0.9] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\embedded-android-4.0.9.aar\a821c26118fc5e4c395b0c6ad743f745\AndroidManifest.xml:5:5-7:41
+MERGED from [org.mongodb:embedded-android:4.0.9] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\embedded-android-4.0.9.aar\a821c26118fc5e4c395b0c6ad743f745\AndroidManifest.xml:5:5-7:41
+MERGED from [net.java.dev.jna:jna:4.5.2] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jna-4.5.2.aar\0b52b7c6d48674e3cc9dcd3c6457f00b\AndroidManifest.xml:7:5-47
+MERGED from [net.java.dev.jna:jna:4.5.2] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jna-4.5.2.aar\0b52b7c6d48674e3cc9dcd3c6457f00b\AndroidManifest.xml:7:5-47
+INJECTED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml
+INJECTED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\a064319cfdb3ba60a60b86094a641c3a\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml
+		MERGED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android apps\MongoDB Hackathon\EEG_Algo_SDK_Android\Algo_SDK_Sample\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\a064319cfdb3ba60a60b86094a641c3a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\03c6292fd9baee489c1f9dad7322b997\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\03c6292fd9baee489c1f9dad7322b997\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\bee165b265bcb4d1324fb3111f2abee1\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\bee165b265bcb4d1324fb3111f2abee1\AndroidManifest.xml:23:9-25:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\a064319cfdb3ba60a60b86094a641c3a\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\a064319cfdb3ba60a60b86094a641c3a\AndroidManifest.xml:27:13-51
+provider#com.mongodb.stitch.android.services.mongodb.local.internal.MongoDbMobileProvider
+ADDED from [org.mongodb:stitch-android-services-mongodb-local:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-services-mongodb-local-4.1.0.aar\213f2087ebf400877d6667c8dd4b9c80\AndroidManifest.xml:14:9-17:40
+	android:authorities
+		ADDED from [org.mongodb:stitch-android-services-mongodb-local:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-services-mongodb-local-4.1.0.aar\213f2087ebf400877d6667c8dd4b9c80\AndroidManifest.xml:16:13-79
+	android:exported
+		ADDED from [org.mongodb:stitch-android-services-mongodb-local:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-services-mongodb-local-4.1.0.aar\213f2087ebf400877d6667c8dd4b9c80\AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from [org.mongodb:stitch-android-services-mongodb-local:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-services-mongodb-local-4.1.0.aar\213f2087ebf400877d6667c8dd4b9c80\AndroidManifest.xml:15:13-108
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [org.mongodb:stitch-android-core:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-core-4.1.0.aar\9a209d9b35e8ba9af6df01dc5b88a5fe\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [org.mongodb:stitch-android-core:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-core-4.1.0.aar\9a209d9b35e8ba9af6df01dc5b88a5fe\AndroidManifest.xml:11:22-76
+provider#com.mongodb.stitch.android.core.internal.StitchInitProvider
+ADDED from [org.mongodb:stitch-android-core:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-core-4.1.0.aar\9a209d9b35e8ba9af6df01dc5b88a5fe\AndroidManifest.xml:21:9-24:40
+	android:authorities
+		ADDED from [org.mongodb:stitch-android-core:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-core-4.1.0.aar\9a209d9b35e8ba9af6df01dc5b88a5fe\AndroidManifest.xml:23:13-70
+	android:exported
+		ADDED from [org.mongodb:stitch-android-core:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-core-4.1.0.aar\9a209d9b35e8ba9af6df01dc5b88a5fe\AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [org.mongodb:stitch-android-core:4.1.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\stitch-android-core-4.1.0.aar\9a209d9b35e8ba9af6df01dc5b88a5fe\AndroidManifest.xml:22:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\cb5b02a5581a9bab2f374dc1c34ec962\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\cb5b02a5581a9bab2f374dc1c34ec962\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\cb5b02a5581a9bab2f374dc1c34ec962\AndroidManifest.xml:24:13-58

@@ -1,0 +1,4 @@
+#Tue Apr 30 18:23:43 IST 2019
+base.0=D\:\\Android apps\\MongoDB Hackathon\\EEG_Algo_SDK_Android\\Algo_SDK_Sample\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.0=classes.dex
+renamed.0=classes.dex

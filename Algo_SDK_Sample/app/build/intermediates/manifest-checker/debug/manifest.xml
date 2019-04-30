@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.neurosky.algo_sdk_sample"
+    android:versionCode="1"
+    android:versionName="1.5" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.neurosky.algo_sdk_sample.MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" /> <!-- MongoDbMobileProvider initialize MongoDB Mobile for future usage -->
+        <provider
+            android:name="com.mongodb.stitch.android.services.mongodb.local.internal.MongoDbMobileProvider"
+            android:authorities="com.neurosky.algo_sdk_sample.StitchMongoDBMobileProvider"
+            android:exported="false" />
+        <!--
+          StitchInitProvider is a ContentProvider that will associate the application's Context
+          with Stitch. It also will look for resource values such as stitch_client_app_id to register
+           a default app client.
+        -->
+        <provider
+            android:name="com.mongodb.stitch.android.core.internal.StitchInitProvider"
+            android:authorities="com.neurosky.algo_sdk_sample.StitchInitProvider"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.neurosky.algo_sdk_sample.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>
